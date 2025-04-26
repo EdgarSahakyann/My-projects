@@ -8,11 +8,10 @@ class Board {
 
 protected:
 	int size;
-	vector<vector<char>> dasht;
+	vector<vector<char>> _board;
 
 public:
 	Board(int s = 5);
 	void initBoard();
 	void showBoard(Position cursor);
-
 };
