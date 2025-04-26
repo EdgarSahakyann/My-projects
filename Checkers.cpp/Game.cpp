@@ -64,7 +64,7 @@ bool Game::WhiteQueenCanEat() {
                 while (IsInBounds(Position(i + k + 1, j + k + 1))) {
                     if (k == 1) {
                         if (_board[i + k][j + k].getType() == BLUE && _board[i + k + 1][j + k + 1].getType() == EMPTY) {
-                            return true; // petqa avelacnel _board[i + k][j + k].getType() == BLUE_QUEEN, sax texterum.
+                            return true;
                         }
                     }
                     else {
@@ -403,10 +403,6 @@ void Game::BlueQueenIsFuk(const Position& to) {
         }
     }
 }
-
-//int Board::getEatingPiece(const Position& to) {
-//    return to.row, to.col;
-//}
 
 void Game::move(const Position& from, const Position& to) {
 
