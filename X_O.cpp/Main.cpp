@@ -5,7 +5,7 @@ int main() {
 	int count = 0;
 	string mode, name, diff, name1, name2;
 
-	cout << "Single Player or Multiplayer (Type just 's' or 'm')." << endl; cin >> mode;
+	cout << "Single Player or Multiplayer (Type 's' or 'm')." << endl; cin >> mode;
 
 	if (mode == "m") {
 
