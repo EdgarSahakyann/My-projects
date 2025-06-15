@@ -202,12 +202,3 @@ int main() {
 
 	return 0;
 }
-
-
-
-/*
-default_reflector   WJDZUIKHYRMQPSALOXFCNTBVEG
-default_rotor1      MVCBXLPQAFUKJZDHRTEYINGSWO
-default_rotor2      TNLOCKMZEPGWBIVXSDJQFRAUHY
-default_rotor3      BDFHJLCPRTXVNZYEIWGAKMUSQO
-*/
